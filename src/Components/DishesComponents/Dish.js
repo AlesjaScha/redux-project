@@ -7,7 +7,7 @@ const Dish = ({dish}) =>{
   const [quantity,setQuantity] = useState(1);
   const dispatch = useDispatch()
     return(<div >
-         <img src={`./${dish.img}.jpg`}/>
+         <img src={`./${dish.img}.jpg`}alt="bildZwei"/>
        <h2>{dish.name}</h2>
        <h2> ${dish.price}</h2>
        {/*TO FIX LATER*/}
