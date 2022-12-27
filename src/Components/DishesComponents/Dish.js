@@ -1,6 +1,5 @@
 import ChangeQuantity from "../Cart/ChangeQuantity";
 import { useState } from "react";
-import { addListener } from "@reduxjs/toolkit";
 import { addItemToCart } from "../../redux/cartSlice";
 import { useDispatch } from "react-redux";
 
